@@ -6,10 +6,13 @@ All the required information can be found here https://www.jetbrains.com/help/ph
 
 # Plug and Play
 
-Example of assertEquals() test case
+- Download and run the `composer install` to get the PHPUnit Framework
+- Configure the PHPStorm IDE as mentioned above or run the phpunit testing command directly. e.g. - https://phpunit.de/getting-started/phpunit-7.html
+
+Example of `assertEquals()` test case
 
 
-Foo.php (Base class)
+`Foo.php (Base class)`
 
 ```php
 <?php
@@ -29,7 +32,7 @@ class Foo
 
 ```
 
-FooTest.php (Test case class)
+`FooTest.php (Test case class)`
 
 ```php
 <?php
@@ -60,14 +63,14 @@ class FooTest extends TestCase
 }
 ```
 
-Success result
-![Alt text](../../docs/success.png?raw=true "Success Result")
+`Success result`
+![Alt text](https://github.com/dazimax/phpunit-test-case-samples/blob/main/docs/success.png?raw=true "Success Result")
 
-Failed result
-![Alt text](../../docs/error.png?raw=true "Failed Result")
+`Failed result`
+![Alt text](https://github.com/dazimax/phpunit-test-case-samples/blob/main/docs/error.png?raw=true "Failed Result")
 
 # Currently available asserts
-assertEquals()
+- `assertEquals()`
 
 # Contribute to expand these Test Cases
 You can simply create a pull request with your added sample test cases!
